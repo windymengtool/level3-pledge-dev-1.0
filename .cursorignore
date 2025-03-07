@@ -1,0 +1,32 @@
+# 大型依赖目录
+node_modules/
+vendor/
+dist/
+
+# 构建输出
+build/
+out/
+
+# 参考资料目录（避免索引参考项目的代码）
+001---参考资料/
+
+# 二进制文件和库文件
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 日志和缓存
+*.log
+.cache/
+logs/
+
+# 合约编译输出
+artifacts/
+cache/
+
+# 测试文件和覆盖率报告
+coverage/
+*.test
+
+.cursor/ignores
